@@ -1,0 +1,161 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ----------------------------------background---------------------------- */
+#ox_back{
+    width: 100%;
+    min-height: 700px;
+    float: left;
+    background-image: url(../img/kevin.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 1s;
+}
+/* -----------------------------------------cars---------------------------- */
+#ox_player ,#ox_player2{
+    width: 550px;
+    height: 350px;
+    /* background: chartreuse; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
+    transition: 1s;
+}
+#ox_player{
+    left: 0;
+    transform: rotateY(180deg);
+    
+}
+/* -----------------------------------------cars---------------------------- */
+/* -----------------------------text----------------------- */
+#ox_text{
+    font-size: 36px;
+    color: rgb(39, 38, 37);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #c2cabf, 0 0 30px #d1ebca, 0 0 40px #ccecc3, 0 0 55px #cef1c5, 0 0 75px #c0f1eb, 5px 3px 2px rgba(184,206,203,0.08);
+    position: absolute;
+    left: 50px;
+    
+}
+#ox_nav{
+    width: 350px;
+    min-height: 250px;
+    border: 3px solid gold;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    color: whitesmoke;
+    background:rgba(5, 10, 20, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#ox_nav p{
+    font-size: 22px;
+    color: rgb(140, 226, 190);
+}
+#ox_nav span{
+    font-size: 24px;
+    color: rgb(74, 165, 165);
+    letter-spacing: 5px;
+}
+/* ---------------------------------------CAR parameter------------------- */
+#ox_par{
+    width: 250px;
+    min-height: 150px;
+    background: rgba(0, 0, 1, 0.5);
+    border: 3px solid gold;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+    transition: 0.8s;
+    color: seashell;
+    text-align: center;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    word-spacing: 5px;
+    line-height: 45px;
+}
+#ox_par::before{
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: gold;
+    position: absolute;
+    bottom: -23px;
+    left: -74px;
+    transform: rotate(145deg);
+}
+#ox_par::after{
+    content: " ";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: gold;
+    position: absolute;
+    bottom: -59px;
+    left: -74px;
+}
+#ox_par1{
+    width: 250px;
+    min-height: 150px;
+    background: rgba(0, 0, 1, 0.4);
+    border: 3px solid gold;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 250px;
+    right: 500px;
+    transition: 0.8s;
+    color: seashell;
+    text-align: center;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    word-spacing: 5px;
+    line-height: 45px;
+    
+}
+#ox_par1::before{
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: gold;
+    position: absolute;
+    bottom: -23px;
+    right: -74px;
+    transform: rotate(42deg);
+}
+#ox_par1::after{
+    content: " ";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: gold;
+    position: absolute;
+    bottom: -64px;
+    right: -72px;
+    
+}
+#ox_logo,#ox_logo1{
+    width: 100px;
+    height: 55px;
+    object-fit: cover;
+ 
+}
